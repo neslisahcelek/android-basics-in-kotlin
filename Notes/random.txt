@@ -1,0 +1,27 @@
+val diceRange = 1..6
+val diceRange = (-11..6).random()
+print("random number: ${diceRange.random()}")
+Organizing everything about dice into a class is called encapsulation. 
+it means is that you can enclose functionality that is logically related into a single place.
+
+
+class Dice(val sides: Int,val color: String) {
+
+    fun roll(): Int{
+        return (1..sides).random()
+    }
+    fun main(){
+        val myDice=Dice(6,"Red")
+        print(myDice.roll())
+    }
+}
+
+class Coin{
+    fun flip(): String{
+        var rand = (1..2).random()
+        if(rand<=1.5)
+            return "head"
+        else
+            return "tail"
+    }
+}
