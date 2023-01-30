@@ -1,0 +1,7 @@
+In the MainActivity.kt class, select all the text in the file
+  with the keyboard shortcut Control+A on Windows 
+Or you could go to the menu in Android Studio Edit > Select All.
+With all the text selected in the file, 
+go to the Android Studio menu Code > Reformat Code 
+    or use the keyboard shortcut Ctrl+Alt+L 
+

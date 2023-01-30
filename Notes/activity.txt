@@ -1,0 +1,13 @@
+An Activity provides the window in which your app draws its UI.
+Typically, an Activity takes up the whole screen of your running app. 
+Every app has one or more activities. 
+The top-level or first activity is often called the MainActivity
+ and is provided by the project template. 
+
+in MainActivity code, you need to provide details on the Activity's layout 
+and how the user should interact with it.
+
+For example, in a photo gallery app, you could have 
+an Activity for displaying a grid of photos, 
+a second Activity for viewing an individual photo, 
+and a third Activity for editing an individual photo.
