@@ -1,2 +1,6 @@
 Resource manager -> + -> import drawables
 id:  R.drawable.filename
+
+In Attributes in the Declared Attributes section, 
+find the tool srcCompat attribute, which is set to the avatar image.
+**srccompat sadece developera görünür
