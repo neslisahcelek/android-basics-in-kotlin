@@ -7,12 +7,27 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/image_lemon_state"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+
+    <ImageView
+        android:id="@+id/image_lemon_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/lemon_tree" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

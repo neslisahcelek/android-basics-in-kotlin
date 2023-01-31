@@ -2,6 +2,9 @@ package com.example.makelemonade
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     private val LEMONADE_STATE = "LEMONADE_STATE"
@@ -41,11 +44,10 @@ class MainActivity : AppCompatActivity() {
         lemonImage = findViewById(R.id.image_lemon_state)
         setViewElements()
         lemonImage!!.setOnClickListener {
-            // TODO: call the method that handles the state when the image is clicked
+            clickLemonImage()
         }
         lemonImage!!.setOnLongClickListener {
-            // TODO: replace 'false' with a call to the function that shows the squeeze count
-            false
+            showSnackbar()
         }
     }
 
@@ -64,10 +66,14 @@ class MainActivity : AppCompatActivity() {
      * This method determines the state and proceeds with the correct action.
      */
     private fun clickLemonImage() {
-        // TODO: use a conditional statement like 'if' or 'when' to track the lemonadeState
-        //  when the image is clicked we may need to change state to the next step in the
-        //  lemonade making progression (or at least make some changes to the current state in the
-        //  case of squeezing the lemon). That should be done in this conditional statement
+        val tree = LemonTree
+        when(lemonadeState){
+            SELECT -> {
+                pick()
+                squeezeCount=0
+            }
+            }
+        }
 
         // TODO: When the image is clicked in the SELECT state, the state should become SQUEEZE
         //  - The lemonSize variable needs to be set using the 'pick()' method in the LemonTree class
