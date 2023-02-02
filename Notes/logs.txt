@@ -1,0 +1,10 @@
+Log levels
+-ERROR
+-WARN
+-INFO
+-DEBUG
+-VERBOSE: can be removed after a feature is implemented
+
+**using logs to debug won't impact the performance of published apps,
+ whereas println() statements remain in release builds and
+ do negatively impact performance.

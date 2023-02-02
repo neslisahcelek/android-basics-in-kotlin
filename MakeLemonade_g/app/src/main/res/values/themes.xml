@@ -13,11 +13,15 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<resources>
-    <string name="app_name">Lemonade</string>
-    <string name="lemon_select">Click to collect a lemon!</string>
-    <string name="lemon_squeeze">Click to juice the lemon!</string>
-    <string name="lemon_drink">Click to drink your lemonade!</string>
-    <string name="lemon_empty_glass">Click to start again!</string>
-    <string name="squeeze_count">Squeeze count: %1$d, keep squeezing!</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Lemonade" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/yellow_primary</item>
+        <item name="colorPrimaryVariant">@color/yellow_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
 </resources>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2021 The Android Open Source Project.
   ~
@@ -14,10 +15,11 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="app_name">Lemonade</string>
-    <string name="lemon_select">Click to collect a lemon!</string>
-    <string name="lemon_squeeze">Click to juice the lemon!</string>
-    <string name="lemon_drink">Click to drink your lemonade!</string>
-    <string name="lemon_empty_glass">Click to start again!</string>
-    <string name="squeeze_count">Squeeze count: %1$d, keep squeezing!</string>
+    <color name="yellow_light">#ffff8b</color>
+    <color name="yellow_primary">#ffee58</color>
+    <color name="yellow_dark">#FFD600</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
