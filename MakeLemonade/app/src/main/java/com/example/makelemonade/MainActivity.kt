@@ -132,7 +132,7 @@ class MainActivity : AppCompatActivity() {
         }
         val squeezeText = getString(R.string.squeeze_count, squeezeCount)
         Snackbar.make(
-            findViewById(R.id.constraint_Layout),
+            findViewById(R.id.image_lemon_state),
             squeezeText,
             Snackbar.LENGTH_SHORT
         ).show()
