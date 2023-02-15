@@ -64,14 +64,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintTop_toBottomOf="@id/round_up_switch"
         app:layout_constraintVertical_bias="0.650" />
+
     <TextView
         android:id="@+id/tip_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Tip Amount: $10"
         android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculate_button" />
+        app:layout_constraintTop_toBottomOf="@+id/calculate_button"
+        tools:text="Tip Amount: $10" />
 
     <RadioGroup
         android:id="@+id/tip_options"
