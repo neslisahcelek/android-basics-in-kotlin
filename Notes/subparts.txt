@@ -4,3 +4,8 @@ Unit 2
 -themes and colors
 -app icon
 *material design
+
+-lists
+-loops
+*recycler view - scroll
+-packages
