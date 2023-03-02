@@ -89,8 +89,6 @@ fun main() {
             .addItem(Noodles())
             .addItem(Vegetables("Spinach"))
     )
-
-    // Print out each order
     for (order in ordersList) {
         order.print()
         println()
