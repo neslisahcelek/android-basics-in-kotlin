@@ -1,0 +1,4 @@
+mutable:değişken
+-list
+-set --> unique, no order
+-map
